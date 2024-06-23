@@ -67,7 +67,7 @@ def generate_views():
     element = random.choice(biblioteka)
     increment = random.randint(1, 100)
     element.liczba_odtworzeń += increment
-    print(f"{element.tytuł} now has {element.liczba_odtworzeń} views after adding {increment} views.")
+    print(f"{element.tytuł} teraz ma odtworzeń {element.liczba_odtworzeń} po dodaniu {increment} odtworzeń.")
 
 def generate_views10():
     for _ in range(10):
